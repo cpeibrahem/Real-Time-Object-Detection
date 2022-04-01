@@ -5,6 +5,7 @@
 This project aims to do real-time object detection through a laptop camera or webcam using OpenCV and MobileNetSSD. The idea is to loop over each frame of the video stream, detect objects like person, chair, dog, etc. and bound each detection in a box.
 Here, we will go through the steps required for setting up the project and some explanation about the code.
 
+https://user-images.githubusercontent.com/46464413/161265756-a4db0622-de15-41eb-bed6-79c31a2c68d6.mp4
 
 
 
@@ -38,6 +39,9 @@ pip install imutils
 Make sure to download and install opencv and and opencv-contrib releases for OpenCV 3.3. This ensures that the deep neural network (dnn) module is installed. You must have OpenCV 3.3 (or newer) to run this code.
 
 **Step 4:** Make sure you have your video devices connected (e.g. Webcam, FaceTime HD Camera, etc.). You can list them by typing this in your terminal
+
+
+
 
 ```
 system_profiler SPCameraDataType

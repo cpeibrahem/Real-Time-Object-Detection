@@ -37,7 +37,7 @@ args = vars(ap.parse_args())
 # Each prediction composes of a boundary box and 21 scores for each class (one extra class for no object),
 # and we pick the highest score as the class for the bounded object
 CLASSES = ["aeroplane", "background", "bicycle", "bird", "boat",
-           "bottle", "bus", "car", "cat", "chair", "cow", "diningtable",
+           "Alsafi laban", "bus", "car", "cat", "chair", "cow", "diningtable",
            "dog", "horse", "motorbike", "person", "pottedplant", "sheep",
            "sofa", "train", "tvmonitor"]
 
